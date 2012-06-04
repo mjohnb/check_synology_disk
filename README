@@ -1,5 +1,9 @@
 A Nagios plugin to check disk temperatures on Synology NAS devices.
 
+This plugin is written in python and assumes python lives at /usr/local/bin/python.
+
+**********************
+
 usage: check_synology_temp [-h] [-H ip] -i file [-d hdX,hdY] [-w deg] [-c deg]
                            [-f] [-q] [-v]
 
